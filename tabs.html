@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saved Tabs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Saved Tabs</h1>
+  <div id="tabsList"></div>
+    <div id="customConfirm" class="modal">
+    <div class="modal-content">
+      <p id="confirmMessage"></p>
+      <button id="confirmYes">Yes</button>
+      <button id="confirmNo">No</button>
+    </div>
+  </div>
+  <div id="customAlert" class="modal">
+    <div class="modal-content">
+      <p id="alertMessage"></p>
+      <button id="alertOk">OK</button>
+    </div>
+  </div>
+  <div id="customPrompt" class="modal">
+    <div class="modal-content">
+      <p id="promptMessage"></p>
+      <input type="text" id="promptInput">
+      <button id="promptOk">OK</button>
+      <button id="promptCancel">Cancel</button>
+    </div>
+  </div>
+  <script src="utils.js"></script>
+  <script src="tabs.js"></script>
+</body>
+</html>

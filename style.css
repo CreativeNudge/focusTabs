@@ -1,0 +1,198 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1E2A38;
+    padding: 20px;
+    color: #fff;
+  }
+  
+h1 {
+    color: #FF6B8B;
+    text-align: center;
+}
+
+h2 {
+    color: #54A8FF;
+    text-align: left;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #FF6B8B;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #8158DF;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+select, input {
+    padding: 10px;
+    border: 1px solid #54A8FF;
+    border-radius: 5px;
+    background-color: #1E2A38;
+    color: #fff;
+}
+
+.tab-entry {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2A3C4E;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tab-link {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    text-decoration: none;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+  
+.tab-link:hover {
+    text-decoration: underline;
+}
+
+.tab-favicon {
+    margin-right: 5px;
+}
+
+.tab-title {
+    flex-grow: 1;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #54A8FF;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #2C3E50;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.category-header:hover {
+    background-color: #34495E;
+}
+
+.category-header h2 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.category-header button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
+.category-header button:hover {
+    background-color: #c0392b;
+}
+
+.tabs-container {
+    margin-left: 20px;
+}
+
+.tab-title {
+    flex-grow: 1;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.restore-btn, .remove-btn {
+    background-color: #FF6B8B;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.restore-btn:hover {
+    background-color: #8158DF;
+}
+
+.remove-btn {
+    background-color: #FF3B3B;
+    margin-left: auto;
+}
+
+.remove-btn:hover {
+    background-color: #E60000;
+}
+
+/* style for custom alert, pompt and confirm */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+.modal-content {
+    background-color: #1E2A38;
+    color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #54A8FF;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+.modal button {
+    background-color: #FF6B8B;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.modal button:hover {
+    background-color: #8158DF;
+  }
+
+#promptInput {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #54A8FF;
+    border-radius: 4px;
+    background-color: #2C3E50;
+    color: #fff;
+  }
+  
+#promptInput:focus {
+    outline: none;
+    border-color: #8158DF;
+  }

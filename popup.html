@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Focus Tabs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Focus Tabs</h1>
+  <div>
+    <label for="category">Category:</label>
+    <select id="category">
+      <option value="Main">Main</option>
+    </select>
+    <button id="addCategory">Add Category</button>
+  </div>
+  <button id="saveTab">Save Current Tab</button>
+  <button id="showTabs">Show Saved Tabs</button>
+  <div id="customAlert" class="modal">
+    <div class="modal-content">
+      <p id="alertMessage"></p>
+      <button id="alertOk">OK</button>
+    </div>
+  </div>
+  <div id="customPrompt" class="modal">
+    <div class="modal-content">
+      <p id="promptMessage"></p>
+      <input type="text" id="promptInput">
+      <button id="promptOk">OK</button>
+      <button id="promptCancel">Cancel</button>
+    </div>
+  </div>
+  <script src="utils.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
