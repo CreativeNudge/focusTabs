@@ -16,6 +16,13 @@ h2 {
     margin-top: 20px;
 }
 
+#extension-logo {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    height: auto;
+}
+
 button {
     background-color: #FF6B8B;
     color: white;
@@ -153,7 +160,7 @@ select, input {
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.4);
-  }
+}
   
 .modal-content {
     background-color: #1E2A38;
@@ -165,7 +172,7 @@ select, input {
     width: 80%;
     max-width: 300px;
     text-align: center;
-  }
+}
   
 .modal button {
     background-color: #FF6B8B;
@@ -180,7 +187,34 @@ select, input {
   
 .modal button:hover {
     background-color: #8158DF;
-  }
+}
+
+.popup .modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+  
+.popup .modal-content {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.popup .modal button {
+    margin-top: 10px;
+}
+  
+.popup #promptInput {
+    width: 90%;
+    margin: 10px 0;
+}
 
 #promptInput {
     width: 100%;
@@ -190,9 +224,9 @@ select, input {
     border-radius: 4px;
     background-color: #2C3E50;
     color: #fff;
-  }
+}
   
 #promptInput:focus {
     outline: none;
     border-color: #8158DF;
-  }
+}

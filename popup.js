@@ -85,4 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
       console.log('Categories loaded:', sortedCategories);
     });
-  }
+}
+
+document.getElementById('logo-link').addEventListener('click', (e) => {
+    e.preventDefault();
+    chrome.tabs.create({ url: "https://creativenudge.github.io/activefocus-youtube-filter/" });
+});
